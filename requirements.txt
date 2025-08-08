@@ -1,10 +1,9 @@
-# This file contains the exact packages needed to run the server.
-# Install these with: pip install -r requirements.txt
-
-numpy
-pandas
-scikit-learn
-joblib
-Flask
-Flask-Cors
-gunicorn
+This file lists the specific package versions needed for the backend server.
+Using exact versions ensures compatibility and prevents deployment errors.
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+joblib==1.4.2
+Flask==3.0.3
+Flask-Cors==4.0.1
+gunicorn==22.0.0
