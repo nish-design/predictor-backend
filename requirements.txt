@@ -1,8 +1,10 @@
-# This file was automatically generated.
-# Install these packages in a virtual environment using: pip install -r requirements.txt
+# This file contains the exact packages needed to run the server.
+# Install these with: pip install -r requirements.txt
 
-numpy==2.0.2
-pandas==2.2.3
-scikit-learn==1.5.2
-joblib==1.4.2
-notebook==7.4.3
+numpy
+pandas
+scikit-learn
+joblib
+Flask
+Flask-Cors
+gunicorn
