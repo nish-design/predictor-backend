@@ -1,0 +1,8 @@
+# This file was automatically generated.
+# Install these packages in a virtual environment using: pip install -r requirements.txt
+
+numpy==2.0.2
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib==1.4.2
+notebook==7.4.3
