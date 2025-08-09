@@ -1,5 +1,3 @@
-This file lists the specific package versions needed for the backend server.
-Windows-specific packages have been removed for compatibility with Render (Linux).
 annotated-types==0.7.0
 anyio==4.9.0
 argon2-cffi==25.1.0
