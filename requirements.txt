@@ -1,3 +1,5 @@
+This file lists the specific package versions needed for the backend server.
+Windows-specific packages have been removed for compatibility with Render (Linux).
 annotated-types==0.7.0
 anyio==4.9.0
 argon2-cffi==25.1.0
@@ -32,6 +34,8 @@ et_xmlfile==2.0.0
 executing==2.2.0
 fastjsonschema==2.21.1
 Flask==3.0.3
+Flask-Cors==4.0.1
+gunicorn==22.0.0
 flatbuffers==25.2.10
 fonttools==4.54.1
 fqdn==1.5.1
@@ -44,7 +48,7 @@ ipykernel==6.29.5
 ipython==9.3.0
 ipython_pygments_lexers==1.1.1
 ipywidgets==8.1.7
-isoduration==20.11.0
+isoduration==20.11.1
 itsdangerous==2.2.0
 jedi==0.19.2
 Jinja2==3.1.4
@@ -108,13 +112,10 @@ pydantic_core==2.23.4
 Pygments==2.18.0
 pyjokes==0.8.3
 pyparsing==3.1.4
-pypiwin32==223
-pyreadline3==3.5.4
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pyttsx3==2.91
 pytz==2024.2
-pywin32==306
 pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==27.0.0
